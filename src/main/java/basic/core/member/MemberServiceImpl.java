@@ -1,6 +1,6 @@
 package basic.core.member;
 
-public class memberServiceImpl implements MemberService{
+public class MemberServiceImpl implements MemberService{
 
     private final MemberRepository memberRepository = new MemoryMemberRepository();
     @Override
